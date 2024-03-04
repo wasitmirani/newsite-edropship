@@ -121,7 +121,7 @@
                 </div>
                 <div class="col-md-6 col-sm-8">
                     <div class="footer-copyright">
-                        <p style="color: white;">© 2021 <a href="#">{{config('app.name')}}.</a> All Rights Reserved</p>
+                        <p style="color: white;">© {{Date('Y')}} <a href="#">{{config('app.name')}}.</a> All Rights Reserved</p>
                     </div>
                 </div>
             </div>
